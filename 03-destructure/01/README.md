@@ -2,7 +2,8 @@
 
 ```js
 let [first, second, third] = ['Maya', 'Marisa', 'Chi'];
-console.log(first); // *
-console.log(second); // **
-console.log(third); // ***
+console.log(first); // * "Maya"
+console.log(second); // ** "Marisa"
+console.log(third); // *** "Chi"
+                    // เพราะ เป็นการ assign ตรงตำแหน่ง index
 ```
